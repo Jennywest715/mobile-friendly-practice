@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/mobile-friendly-practice/anna-wangler-_GqwoiT7QY8-unsplash.jpg);
+    background-size: cover;
+}
+header {
+    text-align: center;
+    margin-top:50px;
+    height: 200px;
+    width: auto;
+    color:white;
+}
+.wrapper {
+    margin:0;
+    color:white;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.section1 {
+    height: 200px;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+.section2 {
+    height: 200px;
+    width: 75%;
+    margin: auto;
+    text-align: right;
+}
