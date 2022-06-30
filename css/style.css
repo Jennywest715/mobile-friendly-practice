@@ -1,6 +1,23 @@
 * {
     box-sizing: border-box;
 }
+@media screen and (min-width:480px){
+    .stuff {
+        color:aqua;
+    }   
+}
+@media screen and (min-width:768px) {
+    .stuff {
+        color:pink;
+        font-size: 75px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .stuff {
+        color:lightgreen;
+        font-size: 100px;
+    }    
+}
 body {
     background-image: url(/mobile-friendly-practice/anna-wangler-_GqwoiT7QY8-unsplash.jpg);
     background-size: cover;
